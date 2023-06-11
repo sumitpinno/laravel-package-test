@@ -1,0 +1,26 @@
+{
+    "name": "sourav/contact",
+    "description": "This will save contact information to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sourav",
+            "email": "sourav@innofied.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+          "Innofied\\Contact\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Innofied\\Contact\\ContactServiceProvider"
+          ]
+      }
+    }
+}
